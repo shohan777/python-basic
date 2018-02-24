@@ -2,11 +2,13 @@ class Person:
     name = ''
     location = ''
 
-    def detail(self, name, location):
+    def __init__(self, name, location):
         self.name = name
         self.location = location
-        print('You {a} and live in {b}', format(self.name, self.location))
+
+    def detail(self):
+        print('You {a} and live in {b}'.format(a=self.name, b=self.location))
 
 
-person = Person
-person.detail('Shohan', 'Dhaka')
+person = Person('Shohan', 'Dhaka')
+person.detail()
