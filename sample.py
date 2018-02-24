@@ -2,8 +2,8 @@ print('Hello Shohan')
 print('Hello World')
 
 
-def show_name(your_name):
-    print(your_name)
+def detail(f_name, l_name):
+    print(f_name, l_name)
 
 
-show_name('Manaf Ibn Sayeed')
+detail('Shohan', 'Kenshin')
