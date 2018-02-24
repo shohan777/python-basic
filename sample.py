@@ -6,4 +6,4 @@ def detail(f_name, l_name):
     print(f_name, l_name)
 
 
-detail('Shohan', 'Kenshin')
+detail('Shohan', 'Kenshin'
